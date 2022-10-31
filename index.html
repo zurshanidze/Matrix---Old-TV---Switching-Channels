@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Matrix - Old TV screen not working - Switching Channels</title>
+</head>
+<body>
+    <div id="tv" class="tv">
+      <div id="screen" class="screen">
+        <div id="inner-screen" class="inner-screen">
+          <div id="inner-screen-background" class="inner-screen-background">
+            <iframe id="matrix" class="matrix" width="auto" height="auto"
+              src="https://www.youtube.com/embed/zE7PKRjrid4?loop=1&autoplay=1&mute=1&playlist=zE7PKRjrid4"
+              title="YouTube video player" frameborder="0" allow="accelerometer; allow=" autoplay"; clipboard-write;
+              encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 id="channel-text" class="channel-text">
+              you're on the same frequency
+              <br>
+              Please connect antenna!
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div id="button-container" class="button-container">
+        <div id="on-off-container" class="on-off-container">
+          <button id="on-off" class="on-off button">
+            <h4>ON</h4>
+            <h4>OFF</h4>
+          </button>
+        </div>
+        <div id="switch-up" class="switch-up button">
+          <h4>1</h4>
+        </div>
+        <div id="switch-down" class="switch-down button">
+          <h4>2</h4>
+        </div>
+        <div id="volume" class="volume button">
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
